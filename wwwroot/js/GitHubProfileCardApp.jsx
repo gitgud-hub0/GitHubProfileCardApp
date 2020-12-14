@@ -33,7 +33,6 @@ class Card extends React.Component {
     }
 }
 
-//TODO: figure out how to install axios library in this environment
 class Form extends React.Component {
     state = { userName: '' };
     handleSubmit = async (event) => {
